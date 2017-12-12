@@ -2,12 +2,12 @@
 session_start();
 $_SESSION['login'] = false;
 
-$login = 'bar';
-$pass = 'bar';
+$connection['login'] = 'bar';
+$connection['pass'] = 'bar';
 
 if ((!$_SESSION['login'])) {
     
-    if(($_POST['login'] == $login) AND ($_POST['pass']==$pass)){
+    if(($_POST['login'] == $connection['login']) AND ($_POST['pass']==$connection['pass'])){
         $_SESSION['login']=true;
         header( "Location: aboutPHP.php" );
     }
