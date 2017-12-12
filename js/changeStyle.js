@@ -35,20 +35,30 @@ function fontVariantFun() {
 
 function fontColorChange(color) {
     document.getElementById("styleExample").style.color = color;
+    var elem = document.getElementById('fontColor');
+    elem.value = color;
 }
 
 function backgroundColorChange(color) {
     document.getElementById("styleExample").style.backgroundColor = color;
+    var elem = document.getElementById('backgroundColor');
+    elem.value = color;
 }
 
 function fontFamilyChange(family) {
     document.getElementById("styleExample").style.fontFamily = family;
+    var elem = document.getElementById('fontFamily');
+    elem.value = family;
 }
 
 function fontSizeChange(size) {
     document.getElementById("styleExample").style.fontSize = size;
+    var elem = document.getElementById('fontSize');
+    elem.value = size;
 }
 
 function fontVariantChange(variant) {
     document.getElementById("styleExample").style.fontVariant = variant;
+    var elem = document.getElementById('fontVariant');
+    elem.value = variant;
 }

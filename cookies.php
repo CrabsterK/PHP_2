@@ -23,7 +23,8 @@
     <header id="menu">
         <ul>
             <li><a href="cookies.php">Cookies</a></li>
-            <li><a href="session.php">Sesja</a></li>
+            <li><a href="aboutPHP.php">O PHP</a></li>
+            
         </ul>
     </header>
     <section>

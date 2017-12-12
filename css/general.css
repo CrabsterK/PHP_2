@@ -17,7 +17,7 @@ html{
     left:50%;
     border-radius: 0px 0px 25px 25px;
     background-color: darkgoldenrod;
-    width: 22%;
+    width: auto;
     min-width:250px;
     box-shadow: 2px 2px 20px red;
     z-index: 1000;
@@ -61,6 +61,7 @@ article:first-of-type{
 
 /*MENU*/
 ul {
+    margin: 0 auto;
     list-style: none;
     float: left;
 }
