@@ -36,7 +36,10 @@ if (!(isset($_SESSION['login'])) OR !($_SESSION['login'])) {
     </header>
     <section>
         <h2>O PHP</h2>
-
+        <?php
+            $userName = $_SESSION['userName'];
+            echo "<h1>Witaj $userName!</h1>";
+        ?>
         <article id="styleExample">
             <h2>Czym jest PHP?</h2>
             PHP to skryptowy język programowania służący głównie do tworzenia stron internetowych. PHP jest rozprowadzany na otwartej licencji i każdy może pobrać za darmo jego kopię, zainstalować i używać bez żadnych ograniczeń zarówno do celów prywatnych jak i komercyjnych. Język jest prosty w nauce i umożliwia tworzenie profesjonalnych dynamicznych stron internetowych. 
